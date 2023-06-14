@@ -46,7 +46,7 @@ body {
     padding: 5%;
     }
 }
-    @media (max-width: 375px){
+@media (max-width: 375px){
     .info {
         font-size: 16px;
     }
