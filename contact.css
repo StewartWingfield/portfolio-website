@@ -25,9 +25,31 @@ body {
     text-align: center;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
-
-
-@media (max-width: 375px){
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    font-size: 25px;
+    text-align: center;
+}
+.info h1{
+    line-height: 140px;
+    padding: 8%;
+    word-wrap: break-word;
+}
+@media (max-width: 768px){
+    .info{
+        font-size: 20px;
+    }
+    .info h1{
+    padding: 5%;
+    }
+}
+    @media (max-width: 375px){
+    .info {
+        font-size: 16px;
+    }
     .navigation{
         flex-direction: column;
     }

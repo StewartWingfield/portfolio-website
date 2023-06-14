@@ -17,12 +17,47 @@ body {
 }
 .projects{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 33.33% 33.33% 33.34%;
+    grid-template-rows: 33.33% 33.33% 33.34%;
+    padding: 5%;
 }
-.projects a{
-    width: 100%;
+.nine{
+    height: 75%;
+    width: 90%;
 }
+.eight{
+    height: 75%;
+    width: 90%;
+}
+.seven{
+    height: 75%;
+    width: 90%;
+}
+.six{
+    height: 75%;
+    width: 90%;
+}
+.five{
+    height: 75%;
+    width: 90%;
+}
+.four{
+    height: 75%;
+    width: 90%;
+}
+.three{
+    height: 75%;
+    width: 90%;
+}
+.two{
+    height: 75%;
+    width: 90%; 
+}
+.one{
+    height: 75%;
+    width: 90%;
+}
+
 
 .navigation a {
     flex-wrap: wrap;
